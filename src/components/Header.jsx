@@ -1,4 +1,5 @@
 import { Menu, NavMenu } from "../styles/Header.style";
+
 import Logo from "../assets/images/logo.svg"
 import ArrowDown from "../assets/images/icon-arrow-down.svg"
 
@@ -15,8 +16,8 @@ export default function Header() {
                   <li><a href="#">Contact</a></li>
                </ul>
          </NavMenu>
-         <h2>We are Creatives</h2>
-         <img src={ArrowDown} alt="Seta apontando para baixo" />
+         <h2>We are creatives</h2>
+         <div><img src={ArrowDown} alt="Seta apontando para baixo" /></div>
       </Menu>
    )
 }
