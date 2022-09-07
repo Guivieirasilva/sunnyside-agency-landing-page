@@ -13,12 +13,22 @@ export const Menu = styled.header`
    background-repeat: no-repeat;
    text-align: center;
 
-   >h2{
+   >h1{
       font-family: 'Fraunces', serif;
       font-weight: 700;
-      font-size: 4rem;
+      font-size: 5rem;
       margin-top: 5rem;
       letter-spacing: 6px;
+
+      @media screen and (max-width:950px){
+         margin-top: 3rem;
+         font-size: 4rem;
+      }
+
+      @media screen and (max-width:750px) {
+         margin-top: 1rem;
+         font-size: 3rem;
+      }
    }
    >div{
       margin-top: 3rem;
@@ -36,13 +46,13 @@ export const NavMenu = styled.nav`
    width: 100%;
    height: 90px;
    margin: 0 auto;
-   padding: 0 5%;
+   padding: 2%;
 
    >div{
-      width: 250px;
-
+      width: 280px;
+      margin-left: 0;
       >img{
-         width: 100%;
+         width: 99%;
       }
    }
    >ul{
@@ -54,7 +64,9 @@ export const NavMenu = styled.nav`
       gap: 10%;
       width: 450px;
 
-      
+      @media screen and (max-width:1020px) {
+         display: none;
+      }
       >li a{
          color: black;
          text-decoration: none;
@@ -80,6 +92,26 @@ export const NavMenu = styled.nav`
             background-color: #39a2d6;
             >a{color: var(--White);}
          }
+      }
+   }
+   >button{
+      width: 50px;
+      height: 50px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      display: none;
+      margin-left: 3rem;
+      transition:.5s;
+      >img{
+         width: 100%;
+      }
+      &:hover, &:focus{
+         transform: scale(1.1,1.1);
+      }
+
+      @media screen and (max-width:1020px) {
+         display: block;
       }
    }
 `

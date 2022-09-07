@@ -24,3 +24,16 @@ font-family: 'Fraunces', serif;
   font-family:'Barlow', sans-serif ;
 
 }
+body::-webkit-scrollbar {
+  width: 6px
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #3DBEFF;   
+  border-radius: 30px;       
+  border: 1px solid white; 
+}
