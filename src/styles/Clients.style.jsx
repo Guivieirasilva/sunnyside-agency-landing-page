@@ -14,6 +14,17 @@ export const Testimonials = styled.article`
       font-weight: 700;
       font-size: 2rem;
    }
+  
+   @media screen and (max-width:800px){
+      >h2 {
+      font-size: 1.6rem;
+      padding: 30px;
+      margin-bottom: 30px;
+
+      }
+   }
+
+
 `
 export const Customers = styled.section`
    display: flex;
@@ -49,17 +60,45 @@ export const Customers = styled.section`
       >div{
          top: 3rem;
          width: 100%;
+
          >h3{
             margin-bottom: 1rem ;
             font-family: 'Fraunces', serif;
             font-weight: 700;
             font-size: 1.6rem;
          }
+
          >p{
             color:var(--VeryDarkGrayishBlue);
             font-size: 1.3rem;
          }
       }
    }
+
+   @media screen and (max-width:800px) {
+      flex-direction: column;
+      height: 60vh;
+      gap: 70px;
+
+      >div{
+      gap: 30px;
+
+         >div{
+            margin-bottom: 2rem;
+            >img{ width: 100px; }
+         }
+         >p{ font-size: 1.1rem; }
+         >div{
+            >h3{
+               margin-bottom: .5rem ;
+               font-size: 1.4rem;
+            }
+
+            >p{
+               color:var(--VeryDarkGrayishBlue);
+               font-size: 1.2rem;
+            }
+         }
+      }
 
 `
