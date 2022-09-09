@@ -100,5 +100,5 @@ export const Customers = styled.section`
             }
          }
       }
-
+   }
 `
