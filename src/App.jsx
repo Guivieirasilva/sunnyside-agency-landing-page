@@ -1,3 +1,4 @@
+import Clients from "./components/Clients"
 import Content from "./components/Content"
 import Header from "./components/Header"
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Content />
+      <Clients />
     </>
   )
 }

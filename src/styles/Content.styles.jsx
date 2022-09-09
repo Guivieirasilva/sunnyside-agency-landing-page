@@ -117,11 +117,12 @@ export const GridContent = styled.main`
       >section div p{
          font-size: .9rem;
       }
-
       >.egg{
          grid-row-start: 1;
       }
-   
+      >.photography div h3, .design div h3{ font-size: 23px;}
+      >.photography div p, .design div p{ font-size: 18px;}
+
       
    }
 `
