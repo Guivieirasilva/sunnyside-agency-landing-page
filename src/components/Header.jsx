@@ -1,12 +1,13 @@
 import { Menu, NavMenu } from "../styles/Header.style";
 
+import NavMobile from "./NavMobile";
+
 import Logo from "../assets/images/logo.svg"
 import ArrowDown from "../assets/images/icon-arrow-down.svg"
 import IconMenu from "../assets/images/icon-hamburger.svg"
 
 
 import { useState } from "react";
-import { NavMobile } from "./NavMobile";
 
 
 export default function Header() {

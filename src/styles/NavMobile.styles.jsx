@@ -20,7 +20,6 @@ export const Container = styled.section`
    transition: .8s;
    transform: translateY(50px);
 
-
    ${({isVisible}) => isVisible && css`  
       opacity: 1;
       pointer-events: auto;
