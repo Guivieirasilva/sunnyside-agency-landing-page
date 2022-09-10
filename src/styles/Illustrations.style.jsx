@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Ilustration = styled.section`
    display: grid;
    grid-template-columns: repeat(4, 1fr);
-   height: 20vh;
    >div{
       height: 100%;
       >.box-image, .hidden{

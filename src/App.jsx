@@ -2,6 +2,8 @@ import Clients from "./components/Clients"
 import Content from "./components/Content"
 import Header from "./components/Header"
 import Illustrations from "./components/Illustrations"
+import Informations from "./components/Informations"
+
 
 function App() {
 
@@ -11,6 +13,7 @@ function App() {
       <Content />
       <Clients />
       <Illustrations />
+      <Informations />
     </>
   )
 }
