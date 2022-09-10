@@ -8,6 +8,7 @@ export const Testimonials = styled.article`
    justify-content: space-evenly;
    align-items: center;
    height: 80vh;
+   
 
    >h2{
       font-family: 'Fraunces', serif;
@@ -16,6 +17,9 @@ export const Testimonials = styled.article`
    }
   
    @media screen and (max-width:800px){
+      height: auto;
+      justify-content: center;
+
       >h2 {
       font-size: 1.6rem;
       padding: 30px;
@@ -43,7 +47,6 @@ export const Customers = styled.section`
       >div{
          width: 70px;
          height: 70px;
-         border-radius: 50%;
          margin: 0 auto;
          margin-bottom: 3rem;
          >img{
@@ -77,9 +80,8 @@ export const Customers = styled.section`
 
    @media screen and (max-width:800px) {
       flex-direction: column;
-      height: 60vh;
       gap: 70px;
-
+      margin: 5rem 0;
       >div{
       gap: 30px;
 
